@@ -49,7 +49,7 @@ global.eror = '「❗」Server ERROR!'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 global.watermark = '©Shiro Botz' //change the watermark 
 global.image = 'https://i.pinimg.com/736x/ab/ee/46/abee4623346cbf016b3cda64bee000d5.jpg' //change the image
-global.thumbfoto = 'https://images.app.goo.gl/r3Hwot45v3wLhdbz8'
+global.thumbfoto = 'https://images.app.goo.gl/b7BPWCmDaqCfGUzQ9'
 
 // image
 global.bank = 'https://telegra.ph/file/d5ddf4cc627bb0e6bc420.jpg'
