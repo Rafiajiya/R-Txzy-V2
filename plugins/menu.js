@@ -6,7 +6,7 @@ let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 const defaultMenu = {
   before: `
-┌─〔 R-Txzy 〕
+┌─〔 Shiro Botz 〕
 ├ Hai, *%name!*
 ├ Memory Used : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
 └────
@@ -203,9 +203,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 			return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
                     "listMessage":  {
                         "title": `*${ucapan()}, ${name}*`.trim(),
-                        "description": `© *R-Txzy*`.trim(),
-                        "footerText": "Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada owner.",
-                        "buttonText": "*Click Here*",
+                        "description": `© *ShiroBotz*`.trim(),
+                        "footerText": "フレンド・ゾーン.",
+                        "buttonText": "*KLIK DISINI >.<*",
                         "listType": "SINGLE_SELECT",
                         "sections": [
                             {
@@ -487,18 +487,18 @@ function clockString(ms) {
 }
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  res = "Selamat dinihari🌌"
+  res = "Selamat dinihari"
   if (time >= 4) {
-    res = "Selamat pagi🌅"
+    res = "Selamat pagi"
   }
   if (time > 10) {
-    res = "Selamat siang🏙️"
+    res = "Selamat siang"
   }
   if (time >= 15) {
-    res = "Selamat sore🌇"
+    res = "Selamat sore"
   }
   if (time >= 18) {
-    res = "Selamat malam🌃"
+    res = "Selamat malam"
   }
   return res
 }
