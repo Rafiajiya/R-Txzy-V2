@@ -4,7 +4,7 @@
 
 
 let fs = require('fs')
-global.owner = ['6282361160044', '6282361160044','6282361160044', '6282361160044', '6282361160044'] // Letakan nomor kamu disini
+global.owner = ['6287892711054', '6287892711054','6287892711054', '6287892711054', '6287892711054'] // Letakan nomor kamu disini
 global.APIs = { // API Prefix
   // nama: 'https://website'
   hardianto: 'https://hardianto-chan.herokuapp.com',
@@ -47,7 +47,7 @@ global.author = 'mwehehehe'
 global.wait = 'sedang diproses'
 global.eror = '「❗」Server ERROR!'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
-global.watermark = '©Hyzer.' //change the watermark 
+global.watermark = '❖ ShiroBotz | By Hyzer.' //change the watermark 
 global.image = 'https://i.pinimg.com/736x/ab/ee/46/abee4623346cbf016b3cda64bee000d5.jpg' //change the image
 global.thumbfoto = 'https://i.pinimg.com/736x/ab/ee/46/abee4623346cbf016b3cda64bee000d5.jpg'
 // image
